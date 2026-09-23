@@ -70,6 +70,10 @@ export default function App() {
     type();
   }, []);
 
+  useEffect(() => {
+    document.title = "Paresh M S | AI & ML Engineer · Full-Stack Developer";
+  }, []);
+
   return (
     <Routes>
       <Route path="/" element={

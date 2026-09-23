@@ -11,6 +11,12 @@ export default function About() {
   const [countdown, setCountdown] = useState<number | null>(null);
   const [downloading, setDownloading] = useState(false);
 
+  // Page Title & Scroll
+  useEffect(() => {
+    document.title = "About | Paresh M S · AI & ML Engineer";
+    window.scrollTo(0, 0);
+  }, []);
+
   // TYPING EFFECT
   useEffect(() => {
     let index = 0;

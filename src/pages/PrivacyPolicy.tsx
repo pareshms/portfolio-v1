@@ -7,6 +7,7 @@ export default function PrivacyPolicy() {
   const navigate = useNavigate();
 
   useEffect(() => {
+    document.title = "Privacy Policy | Paresh M S";
     window.scrollTo(0, 0);
   }, []);
 

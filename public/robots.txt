@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pareshms.vercel.app/sitemap.xml
